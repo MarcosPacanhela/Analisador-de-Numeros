@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número de 1 a 100: <input type="number" name="number" id="number"> <button id="button" onclick="adicionar()" class="adicionar">Adicionar</button></p>
+
+            <select name="list" id="flista" size="6">
+                <option>Números digitados</option>
+    
+            </select>
+            <p><button id="button" onclick="finalizar()">Finalizar</button></p>
+            
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>@_pacanhela</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
